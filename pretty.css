@@ -32,3 +32,23 @@ h1 {
     text-align: center;
     font-size: 40px;
 }
+
+
+
+/* working on this little section */
+#card-home {
+    border: dotted;
+}
+
+#card-home > h2 {
+    background-color: #fff;
+
+}
+
+#card-home > p {
+    background: #874337;
+}
+
+.flex-daddy {
+    display: flex;
+}
