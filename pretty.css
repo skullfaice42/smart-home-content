@@ -33,16 +33,48 @@ h1 {
     font-size: 40px;
 }
 
+img.img1{
+    width: auto;
+    max-width: 1280px;
+    /* the image up top */
+    /* position: absolute; */
+}
 
 
 /* working on this little section */
 #card-home {
-    border: dotted;
+    width: 90%;
+    height: 500px;
+    /* justify-content: center; nope not this one*/
+    margin: 0 auto;
 }
 
 #card-home > h2 {
-    background-color: #fff;
+    /* background-color: #fff;  used for testing*/
+    /* margin-top: 10px; */
+    padding: 50px;
+    text-align: center;
+    font-size: 48px;
+    margin: 0 auto;
+    /* dont forget to change the type of font */
 
+}
+p.card1{
+    background-color: #87433773;
+    max-width: 748;
+    max-height: 400;
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 12px;
+    margin-right: 10%;
+    /* margin-right: 20px; */
+    /* font-stretch: 2em; */
+}
+img.images1{
+    height: 400px;
+    margin-left: 10%;
+
+    /* margin-left: 20px; */
 }
 
 #card-home > p {
@@ -51,4 +83,24 @@ h1 {
 
 .flex-daddy {
     display: flex;
+}
+h3{
+font-size: 60px;
+
+}
+.brown{
+    background-color:  #87433773;
+}
+.bott{
+    font-size: 30px;
+}
+
+footer{
+    /* margin: 0;  why no work?*/
+}
+section.top-2{
+    /* background-color: black; */
+    margin: 0 auto;
+    justify-content: center;
+    /* margin-left: 27%; */
 }
