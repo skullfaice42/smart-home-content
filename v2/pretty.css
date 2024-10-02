@@ -1,0 +1,82 @@
+body{
+    background-color: rgba(0, 0, 0, 0.189);
+    color: rgb(90, 167, 62);
+    /* margin: 0; */
+    /* padding: 0; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-image{
+    background-image: url(images/super\ secure\ house.webp);
+    background-position: center;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-image p{
+    background-color: rgba(23, 15, 15, 0.701);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+.text-top{
+    width: 50%;
+}
+.buttons-hub{
+    display: flex;
+    width: auto;
+    /* work damn you */
+    /* align-content: space-between; */
+    /* yeah no idea why this wont work */
+}
+.button{
+    margin-top: 10px;
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+}
+.img-and-text{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* margin-left: 50px; */
+    margin-right: 50px;
+
+}
+img{
+    height: 300px;
+    border-radius: 10px;
+}
+.img-and-text p{
+    width: 30%;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.lil-section{
+    width: 100%;
+    margin-top: 30px;
+    background-color: rgba(7, 28, 46, 0.471);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.lil-section h3{
+    font-size: 30px;
+}
+footer{
+    text-align: center;
+    margin-bottom: 30px;
+}
