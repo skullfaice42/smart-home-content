@@ -27,6 +27,8 @@ body{
 .buttons-hub{
     display: flex;
     width: auto;
+    justify-content: space-between;
+    /* hehe i got it     */
     /* work damn you */
     /* align-content: space-between; */
     /* yeah no idea why this wont work */
@@ -52,9 +54,8 @@ h2{
     width: 100%;
     /* margin-left: 50px; */
     margin-right: 50px;
-
 }
-img{
+img.card{
     height: 300px;
     border-radius: 10px;
 }
@@ -79,4 +80,117 @@ img{
 footer{
     text-align: center;
     margin-bottom: 30px;
+}
+/* index above */
+
+
+
+
+/* automationn below */
+
+
+.top-long-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    /* not the best but its whatever */
+}
+.long-card{
+    background-color: black;
+    width: 25%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.long-card p{
+    background-color: rgba(187, 46, 46, 0.463);
+    /* border-radius: 1000; */
+    padding: 10px;
+    /* margin-top: 40px; */
+    width: 80%;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.six-long-cards{
+    justify-content: space-between;
+}
+.top-center-text-two h3{
+    text-align: center;
+}
+.top-center-text-two h4{
+    text-align: center;
+}
+.top-five-boxes-two{
+    /* width: 27%; */
+}
+.box-large{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* and... again why no center? */
+    justify-items: center;
+    justify-content: center;
+}
+.box-large .img-for-large-card{
+    width: 300px;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+
+}
+.box-large h2{
+    background-color: rgba(0, 0, 0, 0.57);
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    /* bruh really...? CENTER AHHH */
+}
+.top-five-boxes-two{
+    display: flex;
+    justify-content: space-around;
+}
+.small-img{
+    width: 175px;
+    /* make sure ot make this fit */
+}
+.card-name{
+    justify-content: left;
+}
+.lil-box{
+    background-color: rgba(0, 0, 0, 0.43);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    /* justify-content: center; */
+
+}
+.small-card-name{
+    background-color: black;
+    width: 80%;
+    border-radius: 10px;
+    padding: 5px;
+}
+.three-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.small-card-name h3{
+    font-size: 15px;
+}
+/* here is where the code for the card layout is
+for automation */
+
+.bot-automation p{
+    width: 600px;
+    text-align: center;
+    justify-content: center;
+    /* again... with the no center... REALLY */
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    
 }
