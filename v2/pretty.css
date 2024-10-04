@@ -1,12 +1,12 @@
 body{
-    background-color: rgba(0, 0, 0, 0.189);
-    color: rgb(90, 167, 62);
+    background-color: #5E5654;
+    color: black;
     /* margin: 0; */
     /* padding: 0; */
     font-family: Arial, Helvetica, sans-serif;
 }
 .top-image{
-    background-image: url(images/super\ secure\ house.webp);
+    background-image: url(buncha-images/super\ secure\ house.webp);
     background-position: center;
     height: 400px;
     background-size: cover;
@@ -15,7 +15,8 @@ body{
     align-items: center;
 }
 .top-image p{
-    background-color: rgba(23, 15, 15, 0.701);
+    background-color: #896b66c7;
+    color: black;
     border-radius: 10px;
     padding: 10px;
     text-align: center;
@@ -26,7 +27,7 @@ body{
 }
 .buttons-hub{
     display: flex;
-    width: auto;
+    height: 400px;
     justify-content: space-between;
     /* hehe i got it     */
     /* work damn you */
@@ -42,9 +43,10 @@ body{
     /* justify-content: center; */
     align-items: center;
     text-align: center;
-    background-color: black;
+    background-color: #D9D9D9;
+    color: black;
 }
-h2{
+.title-for-cards-one{
     font-size: 20px;
     text-align: center;
 }
@@ -82,6 +84,14 @@ footer{
     margin-bottom: 30px;
 }
 /* index above */
+
+
+
+
+
+
+
+
 
 
 
@@ -193,4 +203,114 @@ for automation */
     padding: 10px;
     border-radius: 10px;
     
+}
+/* above is where automation is being heald */
+
+
+
+
+
+
+
+
+
+
+.top-section{
+    display: block;
+}
+
+.top-section h3{
+    /* display: flex; */
+    width: 300px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 auto;
+    /* why did margin work...??? */
+}
+.top-section h4{
+    /* justify-content: center; */
+    /* margin: 0 auto; */
+    margin-bottom: 40px;
+    /* yes again the centering error continues :/ */
+}
+.mid-text{
+    width: 800px;
+    margin: 0 auto;
+}
+/* lets get started on the 2 large cards first */
+.two-large-cards-three{
+    background-color: rgb(53, 6, 6);
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    /* justify-content: space-around; */
+    /* margin: 0 auto; */
+
+}
+.two-large-three{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.two-large-cards-three img{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    /* display: flex; */
+}
+.two-large-cards-three h3{
+    width: 90%;
+    margin: 0 auto;
+}
+.two-large-cards-three p{
+    width: 70%;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    /* justify-self: center; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+/* alright above is where the two large cards are */
+
+/* lets get started with the 3 bott carsd */
+.three-sections{
+    display: flex;
+}
+.page-three-bott-cards{
+    margin-top: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+.single-card-three {
+    width: 80%;
+    background-color: rgba(219, 74, 74, 0.507);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.single-card-three img{
+    width: 100%;
+    border-radius: 10px;
+}
+.single-card-three h3{
+    text-align: center;
+}
+.single-card-three p{
+    padding: 10px;
+    background-color: rgba(52, 134, 206, 0.644);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+/* theres the three boxes */
+
+.mid-section{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
