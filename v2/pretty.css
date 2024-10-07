@@ -19,7 +19,7 @@ body{
     color: black;
     border-radius: 10px;
     padding: 10px;
-    text-align: center;
+    justify-content: space-around;
 
 }
 .text-top{
@@ -28,14 +28,15 @@ body{
 .buttons-hub{
     display: flex;
     height: 400px;
-    justify-content: space-between;
+    width: 20%;
+    /* justify-content: space-evenly; */
     /* hehe i got it     */
     /* work damn you */
     /* align-content: space-between; */
     /* yeah no idea why this wont work */
 }
 .button{
-    margin-top: 10px;
+    /* margin-top: 10px; */
     width: 200px;
     height: 20px;
     padding: 10px;
@@ -57,13 +58,17 @@ body{
     /* margin-left: 50px; */
     margin-right: 50px;
 }
-img.card{
+.card-hub{
+    /* display: flex; */
+    flex-direction: column-reverse;
+}
+.img-card{
     height: 300px;
     border-radius: 10px;
 }
 .img-and-text p{
     width: 30%;
-    background-color: black;
+    background-color: #8743377d;
     padding: 10px;
     border-radius: 10px;
 
@@ -71,7 +76,7 @@ img.card{
 .lil-section{
     width: 100%;
     margin-top: 30px;
-    background-color: rgba(7, 28, 46, 0.471);
+    background-color: #8743377d;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
@@ -106,17 +111,24 @@ footer{
     /* not the best but its whatever */
 }
 .long-card{
-    background-color: black;
+    background-color: #87433796;
+    border-style:solid;
     width: 25%;
     padding: 10px;
     border-radius: 10px;
+    /* border: black; */
+}
+.long-card h3{
+    text-align: center;
 }
 .long-card p{
-    background-color: rgba(187, 46, 46, 0.463);
+    background-color: #896b66c7;
+    border-style:solid;
     /* border-radius: 1000; */
     padding: 10px;
     /* margin-top: 40px; */
     width: 80%;
+    /* height: 70%; */
     justify-content: center;
     border-radius: 10px;
     margin: 0 auto;
@@ -134,7 +146,7 @@ footer{
     /* width: 27%; */
 }
 .box-large{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: #87433796;
     width: 30%;
     padding: 10px;
     border-radius: 10px;
@@ -144,6 +156,11 @@ footer{
     justify-items: center;
     justify-content: center;
 }
+.img-for-large-card {
+    /* justify-content: center; */
+    /* margin: 0 auto; */
+    /* margin-left: auto; */
+}
 .box-large .img-for-large-card{
     width: 300px;
     /* justify-content: center; */
@@ -151,7 +168,7 @@ footer{
 
 }
 .box-large h2{
-    background-color: rgba(0, 0, 0, 0.57);
+    background-color: #896b66c7;
     width: 200px;
     border-radius: 10px;
     text-align: center;
@@ -163,22 +180,44 @@ footer{
 }
 .small-img{
     width: 175px;
+    justify-content: center;
+    /* justify-items: center; */
+    /* margin: 0 auto; */
+    /* margin-left: auto; */
+    
     /* make sure ot make this fit */
 }
 .card-name{
     justify-content: left;
 }
 .lil-box{
-    background-color: rgba(0, 0, 0, 0.43);
+    /* background-color: rgba(0, 0, 0, 0.43); */
     width: 30%;
+    /* height: 50%; */
+    /* justify-content: center; */
     border-radius: 10px;
     padding: 10px;
     margin-top: 20px;
+    background-color: #87433796;
+    
     /* justify-content: center; */
 
 }
+.lil-box h3{
+    /* add stuff here lmao */
+    color: black;
+    margin: 0 auto;
+    width: 100px;
+    height: 30px;
+    border:solid;
+    border: black;
+    /* justify-self: center; */
+    /* align-items: center; */
+    /* align-self: center; */
+}
+
 .small-card-name{
-    background-color: black;
+    background-color: #896b6681;
     width: 80%;
     border-radius: 10px;
     padding: 5px;
@@ -187,6 +226,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
 }
 .small-card-name h3{
     font-size: 15px;
@@ -196,10 +236,14 @@ for automation */
 
 .bot-automation p{
     width: 600px;
+    background-color: black;
+    /* align-items: center; */
+    align-self: center;
+    /* justify-content: center; */
     text-align: center;
     justify-content: center;
     /* again... with the no center... REALLY */
-    background-color: black;
+    /* background-color: black; */
     padding: 10px;
     border-radius: 10px;
     
