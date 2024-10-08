@@ -121,8 +121,10 @@ footer{
 .dropdown-content {
     display: none;
     position: absolute;
+    /* justify-content: space-around; */
+    margin: 0 auto;
     background-color: #f1f1f1;
-    min-width: 160px;
+    min-width: 300px;
     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
     z-index: 1;
     border-radius: 5px;
@@ -250,11 +252,13 @@ footer{
 .card-name{
     justify-content: left;
 }
+
 .lil-box{
     /* background-color: rgba(0, 0, 0, 0.43); */
     /* width: 30%; */
     /* height: 50%; */
     /* justify-content: center; */
+    align-items: center;
     border-radius: 10px;
     padding: 10px;
     margin-top: 20px;
