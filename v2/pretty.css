@@ -4,6 +4,7 @@ body{
     /* margin: 0; */
     /* padding: 0; */
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
 }
 .card-hub:nth-child(even) .img-and-text {
     flex-direction: row-reverse;
@@ -48,7 +49,8 @@ body{
     background-color: #D9D9D9;
     color: black;
 }
-.title-for-cards-one{
+
+.card-hub h2{
     font-size: 20px;
     text-align: center;
 }
@@ -105,9 +107,17 @@ footer{
 
 /* automationn below */
 .dropdown {
+    /* justify-content: center; */
+    /* text-align: center; */
     position: relative;
-    display: inline-block;
+    display: inline-flex;
+    /* display: in; */
+    /* margin-right: auto; */
+    /* justify-content: center; */
+    /* text-align: center; */
+
 }
+
 .dropbtn {
     background-color: #896b66d7;
     color: rgb(0, 0, 0);
@@ -116,7 +126,10 @@ footer{
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    /* justify-content: center; */
+    /* margin-left: auto; */
+    /* justify-items: center; */
 }
 .dropdown-content {
     display: none;
@@ -198,21 +211,31 @@ footer{
     text-align: center;
 }
 .top-five-boxes-two{
+    display: flex;
+    margin: 0 auto;
+    /* flex-direction: column; */
+    /* margin: 0 auto; */
     /* width: 27%; */
 }
+
 .box-large{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     /* justify-content: center; */
     /* margin: 0 auto; */
     background-color: #87433796;
     /* width: 30%; */
     padding: 10px;
     border-radius: 10px;
+    align-items: center;
     /* justify-content: center; */
     /* align-items: center; */
     /* and... again why no center? */
     /* text-align: center; */
     justify-items: center;
     justify-content: center;
+    text-align: center;
 }
 .img-for-large-card {
     /* justify-content: center; */
@@ -258,6 +281,9 @@ footer{
     /* width: 30%; */
     /* height: 50%; */
     /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
     align-items: center;
     border-radius: 10px;
     padding: 10px;
@@ -285,7 +311,7 @@ footer{
     width: 80%;
     border-radius: 10px;
     padding: 5px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     text-align: center;
 }
 .three-boxes{
