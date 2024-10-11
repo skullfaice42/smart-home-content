@@ -6,6 +6,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
 }
+h2 h3 h4 h5{
+    font-family:'Times New Roman', Times, serif
+}
+a{
+    text-decoration: none;
+}
 .card-hub:nth-child(even) .img-and-text {
     flex-direction: row-reverse;
     /* since card hub is the parent... and img and text is child... this works 👍 */
@@ -239,14 +245,7 @@ footer{
     justify-content: center;
     text-align: center;
 }
-img.img-for-large-card {
-    /* justify-content: center; */
-    /* margin-bottom: 10px; */
-    /* margin: 0 auto; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    /* margin-left: auto; */
-}
+
 .box-large .img-for-large-card{
     margin: 0 auto;
     width: 800px;
